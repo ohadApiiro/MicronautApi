@@ -6,8 +6,8 @@ import io.micronaut.http.annotation.Get;
 
 @Controller("/hello")
 public class Api {
-    @Get("kitty")
-    public String index() {
+    @Get("/kitty")
+    public String kitty() {
         return "Hello World";
     }
 }
