@@ -6,7 +6,7 @@ import io.micronaut.http.annotation.Get;
 
 @Controller("/hello")
 public class Api {
-    @Get(produces = MediaType.TEXT_PLAIN)
+    @Get("kitty")
     public String index() {
         return "Hello World";
     }
